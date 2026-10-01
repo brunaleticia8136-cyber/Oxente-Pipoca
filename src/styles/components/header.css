@@ -1,0 +1,11 @@
+    .site-header { position: sticky; top: 0; z-index: 60; background: rgba(255,248,236,.9); border-bottom: 1px solid rgba(45,16,7,.08); backdrop-filter: blur(18px); }
+    .header-inner { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+    .brand { display: flex; align-items: center; gap: 11px; text-decoration: none; font-weight: 900; line-height: 1; }
+    .brand img { width: 48px; height: 48px; object-fit: cover; border-radius: 50%; box-shadow: 0 4px 14px rgba(45,16,7,.14); }
+    .brand span { font-family: Georgia, 'Times New Roman', serif; font-size: 1.05rem; }
+    .nav { display: none; align-items: center; gap: 26px; }
+    .nav a { font-size: .9rem; font-weight: 800; text-decoration: none; color: var(--brown-2); }
+    .nav a:hover { color: var(--brown); }
+    .header-cart { border: 0; border-radius: 999px; padding: 10px 14px; background: var(--brown); color: white; display: flex; align-items: center; gap: 8px; font-weight: 800; cursor: pointer; }
+    .header-cart svg { width: 20px; height: 20px; }
+    .cart-count { min-width: 22px; height: 22px; display: grid; place-items: center; border-radius: 999px; background: var(--gold-2); color: var(--brown); font-size: .78rem; }

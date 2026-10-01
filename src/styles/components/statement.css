@@ -1,0 +1,5 @@
+    .statement { padding: 80px 0; background: var(--paper); }
+    .statement-grid { display: grid; gap: 30px; align-items: end; }
+    .statement h2 { font-size: clamp(2.4rem, 7vw, 5rem); line-height: 1; margin: 0; max-width: 760px; }
+    .statement h2 span { color: var(--red); }
+    .statement-side { border-left: 2px solid var(--gold); padding-left: 22px; color: var(--muted); max-width: 410px; }

@@ -1,0 +1,56 @@
+# Dependências e arquivos gerados
+node_modules/
+dist/
+.vercel/
+coverage/
+.cache/
+
+# Cópia local do repositório, fora dos arquivos publicados
+/Oxente-Pipoca/
+
+# Configurações locais e credenciais (exemplos públicos podem ser versionados)
+.env
+.env.*
+!.env.example
+!.env.*.example
+.npmrc
+.netrc
+.aws/
+.ssh/
+credentials.json
+credentials.*.json
+service-account*.json
+*-service-account.json
+secrets.json
+secrets.*.json
+auth.json
+storage-state*.json
+playwright/.auth/
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.jks
+
+# Logs, backups e dados locais
+*.log
+*.bak
+*.tmp
+*.dump
+*.sqlite
+*.sqlite3
+*.db
+backups/
+.local/
+tmp/
+temp/
+
+# Editor e sistema operacional
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini
